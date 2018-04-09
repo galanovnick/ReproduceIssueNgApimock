@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "integration tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/protractor/bin/protractor",
+      "args": [
+        "integration/config/protractor.conf.js"
+      ],
+      "protocol": "inspector"
+    },
+  ]
+}
