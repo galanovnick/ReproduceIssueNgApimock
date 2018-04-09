@@ -1,0 +1,98 @@
+{
+    "expression": "/heroes",
+    "method": "GET",
+    "name": "get-heroes",
+    "responses": {
+        "heroes": {
+            "status": 200,
+            "headers": {},
+            "data": [
+                {
+                    "id": 6920,
+                    "name": "Ashu",
+                    "alterEgo": "Ashwani Tiwary",
+                    "likes": 1,
+                    "default": false
+                },
+                {
+                    "id": 6918,
+                    "name": "The Punisher",
+                    "alterEgo": "Frank Castle",
+                    "likes": 5,
+                    "default": false
+                },
+                {
+                    "id": 6,
+                    "name": "Capitan America",
+                    "alterEgo": "Steven Grant Rogers",
+                    "likes": 1720,
+                    "default": true
+                },
+                {
+                    "id": 1,
+                    "name": "Spiderman",
+                    "alterEgo": "Peter Parker",
+                    "likes": 13843,
+                    "default": true
+                },
+                {
+                    "id": 8,
+                    "name": "Deadpool",
+                    "alterEgo": "Wade Winston Wilson",
+                    "likes": 16755,
+                    "default": true
+                },
+                {
+                    "id": 3,
+                    "name": "Batman",
+                    "alterEgo": "Bruce Wayne",
+                    "likes": 1087,
+                    "default": true
+                },
+                {
+                    "id": 5,
+                    "name": "Iron man",
+                    "alterEgo": "Tony Stark",
+                    "likes": 1190,
+                    "default": true
+                },
+                {
+                    "id": 7,
+                    "name": "Hulk",
+                    "alterEgo": "Bruce Banner",
+                    "likes": 1089,
+                    "default": true
+                },
+                {
+                    "id": 2,
+                    "name": "Superman",
+                    "alterEgo": "Clark Kent",
+                    "likes": 1092,
+                    "default": true
+                },
+                {
+                    "id": 4,
+                    "name": "Wonder woman",
+                    "alterEgo": "Diana Prince",
+                    "likes": 4660,
+                    "default": true
+                },
+                {
+                    "id": 6921,
+                    "name": "xiaoniao",
+                    "alterEgo": "niaoniao",
+                    "likes": 1,
+                    "default": false
+                }
+            ]
+        },
+        "error": {
+            "default": true,
+            "status": 500,
+            "headers": {},
+            "data": {
+                "error": "Something broke"
+            }
+        }
+    }
+}
